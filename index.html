@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="ArmorFeed safe shipping services" />
+    <meta
+      name="keywords"
+      content="ArmorFeed, shipping services, safe shipping, couriers"
+    />
+    <meta name="author" content="Softeam" />
+    <meta name="copyright" content="Copyright Softeam, 2022" />
+    <title>ArmorFeed - Safe Shipments</title>
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<header class="header">
+    <section>
+        <a href="" class="header__logo">
+            <img src="img/armor-feed.png" alt="Logo image" class="header__logo-img">
+            <div class="header__logo-text">ArmorFeed</div>
+        </a>
+    </section>
+    <!-- Desktop navigation is injected here-->
+    <img src="img/burger-nav.svg" alt="Burger Nav Icon" class="burgerNav" id="burgerNav">
+    <!-- Tablet/mobile navigation is injected  here-->
+</header>
+<main class="base">
+    <section id="Home"></section>
+    <section id="About-us" class="disabled container"></section>
+    <section id="Services" class="disabled container"></section>
+    <section id="Help" class="disabled container"></section>
+</main>
+<footer>
+    <!-- Footer Navigation is injected here -->
+    <div id="footer" class="footer">
+        <section class="footer__Description">
+            <p class="footer__Description-item w-100">Follow us on</p>
+            <a href="https://www.facebook.com/" target="_blank">
+                <img src="img/facebook-icon.svg" alt="Facebook Logo" class="footer__Description-item">
+            </a>
+            <a href="https://www.instagram.com/" target="_blank">
+                <img src="img/instagram-icon.svg" alt="Instagram Logo" class="footer__Description-item">
+            </a>
+            <a href="https://twitter.com/home" target="_blank">
+                <img src="img/twitter-icon.svg" alt="twitter Logo" class="footer__Description-item">
+            </a>
+            <a href="https://www.youtube.com/" target="_blank">
+                <img src="img/youtube-icon.svg" alt="youtube Logo" class="footer__Description-item">
+            </a>
+        </section>
+    </div>
+    <div class="terms">
+        <p>&copy; <a href="terms.html">ArmorFeed 2022</a>, All copyright reserved</p>
+    </div>
+</footer>
+<!--Nav Template to be injected using JavaScript -->
+<template id="TemplateNav">
+    <nav class="TemplateTabsNav showNavAnimation">
+        <li><a class="header__tabs-item" href="#Home">Home</a></li>
+        <li><a class="header__tabs-item" href="#About-us">About Us</a></li>
+        <li><a class="header__tabs-item" href="#Services">Services</a></li>
+        <li><a class="header__tabs-item" href="#Help">Help</a></li>
+        <li><a class="header__tabs-item not-clickable button-secondary" href="https://armorfeed-58165.web.app/sign-in" target="_blank">Start now</a></li>
+    </nav>
+</template>
+
+<script type="module" src="js/script.js"></script>
+</body>
+</html>
